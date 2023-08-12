@@ -1,0 +1,78 @@
+.register {
+    height: calc(100vh - 50px);
+    background: url("https://th.bing.com/th/id/OIP.gw23gi_lMMZpXIUD-ZmwiwHaEo?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.registerOverlay {
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.registerTitle {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    margin-top: 20px;
+}
+
+
+.registerForm>label {
+    margin: 10px 0;
+    color: white;
+}
+
+
+.registerForm>input {
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.registerForm>input {
+    outline: none;
+}
+
+.registersSubmit {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.loginsSubmit {
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
