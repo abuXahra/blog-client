@@ -82,7 +82,7 @@ const SinglePost = () => {
                                 (<img
                                     className='updateImg'
                                     src={URL.createObjectURL(file)}
-                                    alt="" srcset="" />)
+                                    alt="profule image" srcset="" />)
                             }
                             <label htmlFor="fileInput"><span className="updateIcon"><AiFillPicture /></span> <span> Post Picture</span></label>
                             <input

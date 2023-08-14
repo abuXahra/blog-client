@@ -1,8 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import './Setting.css'
 import Sidebar from '../../components/sidebar/Sidebar';
 import { BiUserCircle } from 'react-icons/bi'
-import { Link, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import { Context } from '../../context/Context';
 

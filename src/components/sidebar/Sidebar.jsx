@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './Sidebar.css'
 import { FaFacebookSquare, FaInstagramSquare, FaPinterest } from 'react-icons/fa'
-import { BiSearch } from 'react-icons/bi'
 import { useState } from 'react';
 import axios from 'axios'
 import { Link } from 'react-router-dom';
